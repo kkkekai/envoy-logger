@@ -12,7 +12,7 @@ from .model import SampleData, PowerSample, InverterSample, filter_new_inverter_
 from .cfg import Config
 
 class SamplingLoop:
-    interval = 5
+    interval = 3
 
     def __init__(self, token: str, cfg: Config) -> None:
         self.cfg = cfg
